@@ -1,0 +1,43 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.login-wrapper {
+  max-width: 400px;
+  margin: 150px auto 0;
+}
+
+.login-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper form input {
+  height: 35px;
+  outline: none;
+  width: 100%;
+}
+
+.login-wrapper form button {
+  width: 200px;
+  cursor: pointer;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
